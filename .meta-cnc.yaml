@@ -53,4 +53,4 @@ snippets:
       file: 0-radius_server.xml
     - name: auth_server
       xpath: /config/shared/authentication-profile
-      file: 1-auth_profile.xml
+      file: 1-auth_profile.xml.xml
