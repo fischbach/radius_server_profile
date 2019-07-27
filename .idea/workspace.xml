@@ -10,10 +10,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
+            <state relative-caret-position="456">
               <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
             </state>
           </provider>
@@ -28,8 +28,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-auth_profile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-auth_profile.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
@@ -108,12 +108,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564266706352</updated>
-      <workItem from="1564266707694" duration="2124000" />
+      <workItem from="1564266707694" duration="2523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2124000" />
+    <option name="totallyTimeSpent" value="2523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="0" width="1323" height="1066" extended-state="0" />
@@ -125,10 +125,10 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295688" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3305955" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295688" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -152,17 +152,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-auth_profile">
+    <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="456">
+          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
+    <entry file="file://$PROJECT_DIR$/1-auth_profile.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
