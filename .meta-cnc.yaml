@@ -28,11 +28,20 @@ variables:
   - name: radius_port
     description: The port Radius client uses to talk to the server
     default: 1812
-    type_hint: text
+    type_hint: dropdown
+    dd_list:
+      - key: 1812
+        value: 1812
+      - key: 1813
+        value: 1813
+      - key: 1645
+        value: 1645
+      - key: 1646
+        value: 1646
   - name: radius_server_ip_address
     description: Radius server IP address
     default: 192.168.55.65
-    type_hint: text
+    type_hint: ip_address
 
 snippets:
     - name: radius_server
