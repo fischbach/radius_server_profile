@@ -42,8 +42,15 @@ variables:
     description: Radius server IP address
     default: 192.168.55.65
     type_hint: text
+  - name: auth_profile_name
+    description: Name for the authentication profile
+    default: Duo_auth_profile
+    type_hint: text
 
 snippets:
     - name: radius_server
       xpath: /config/shared/server-profile/radius
       file: 0-radius_server.xml
+    - name: auth_server
+      xpath: /config/shared/authentication-profile
+      file: 1-auth_profile.xml

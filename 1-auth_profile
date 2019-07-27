@@ -1,0 +1,13 @@
+    <entry name="{{ auth_profile_name }}">
+      <multi-factor-auth>
+        <mfa-enable>no</mfa-enable>
+      </multi-factor-auth>
+      <method>
+        <radius>
+          <server-profile>{{ server_name }}</server-profile>
+        </radius>
+      </method>
+      <allow-list>
+        <member>all</member>
+      </allow-list>
+    </entry>
