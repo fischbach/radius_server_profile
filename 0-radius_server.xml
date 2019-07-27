@@ -3,7 +3,7 @@
         <entry name="{{ server_vendor }}">
           <secret>{{ radius_secret }}</secret>
           <port>{{ radius_port }}</port>
-          <ip-address>{{ server_ip_address }}</ip-address>
+          <ip-address>{{ radius_server_ip_address }}</ip-address>
         </entry>
       </server>
       <retries>3</retries>
