@@ -1,4 +1,4 @@
-<entry name="[[ server_name }}">
+<entry name="{{ server_name }}">
       <server>
         <entry name="{{ server_vendor }}">
           <secret>{{ radius_secret }}</secret>
