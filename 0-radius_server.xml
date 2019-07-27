@@ -1,0 +1,14 @@
+<entry name="[[ server_name }}">
+      <server>
+        <entry name="{{ server_vendor }}">
+          <secret>{{ radius_secret }}</secret>
+          <port>{{ radius_port }}</port>
+          <ip-address>{{ server_ip_address }}</ip-address>
+        </entry>
+      </server>
+      <retries>3</retries>
+      <timeout>20</timeout>
+      <protocol>
+        <PAP/>
+      </protocol>
+    </entry>

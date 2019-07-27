@@ -1,0 +1,40 @@
+
+name: create_radius_server
+label: 5. Create a RADIUS server configuration - DUOAUTHPROXY example
+
+description: Create a RADIUS server
+
+extends:
+
+type: panos
+
+labels:
+  collection:
+    - X509 Certificates
+
+variables:
+  - name: server_name
+    description: Name of the server
+    default: Duo_proxy
+    type_hint: text
+  - name: server_vendor
+    description: What vendor is the Radius server?
+    default: duo
+    type_hint: text
+  - name: radius_secret
+    description: The Radius secret must match what is configreed in the RADIUS server
+    default: paloalto
+    type_hint: text
+  - name: radius_port
+    description: The port Radius client uses to talk to the server
+    default: 1812
+    type_hint: text
+  - name: radius_server_ip_address
+    description: Radius server IP address
+    default: 192.168.55.65
+    type_hint: text
+
+snippets:
+    - name: radius_server
+      xpath: /config/shared/server-profile/radius
+      file: 0-radius_server.xml
