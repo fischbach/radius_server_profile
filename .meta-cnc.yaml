@@ -1,8 +1,8 @@
 
-name: create_radius_server
-label: 5. Create a RADIUS server configuration - DUOAUTHPROXY example
+name: create_radius_server_profile
+label: 5. Create a RADIUS server configuration - DUOAUTHPROXY example - and an authentication profile
 
-description: Create a RADIUS server
+description: Create a RADIUS server and authentication profile
 
 extends:
 
